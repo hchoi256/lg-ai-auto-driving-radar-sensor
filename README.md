@@ -21,6 +21,8 @@ LG Aimers
 
 ### **Phase II: Hackathon**
 
+![image](https://user-images.githubusercontent.com/39285147/176649666-dc63ccb4-2a55-4750-a2be-30c4e2e263ed.png)
+
 - Auto driving + radar sensor
 
 ## Note
