@@ -6,6 +6,12 @@ LG Aimers
 ## Overview
 
 ### **Phase I: AI Specialist Course**
+  - **Module 1**: Quality and Reliability - *Hanyang University*
+  - **Module 2**: Supervised Learning (Classification/Regression) - *Ewha University*
+  - **Module 3**: Unsupervised Learning - *Seoul National University*
+  - **Module 4**: Explainable AI - *Seoul National University*
+  - **Module 5**: Causal Inference - *Seoul National University*
+  - **Module 6**: Auto-driving and Radar-sensor - *LG AI Research*
 
 #### Education
 
@@ -23,7 +29,7 @@ LG Aimers
 
 ![image](https://user-images.githubusercontent.com/39285147/176649666-dc63ccb4-2a55-4750-a2be-30c4e2e263ed.png)
 
-- Auto driving + radar sensor
+- Performance prediction for antenna of autonomous driving radar sensors
 
 ## Note
 
