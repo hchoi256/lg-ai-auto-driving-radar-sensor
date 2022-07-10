@@ -2,7 +2,7 @@
  # Supervised Learning (Classification/Regression)
 
  ## Machine Learning
-데이터로부터 내재된 패턴을 학습하는 과정
+데이터로부터 내재된 패턴을 학습하는 과정이며, 데이터 결핍으로 인한 불확실성을 포함하고 있다.
 
 ## 강의 목차 
 ### [Part 1. SL Foundation](https://github.com/EricChoii/lg-ai-auto-driving-radar-sensor/blob/main/supervised-learning/sl-foundation.md)
