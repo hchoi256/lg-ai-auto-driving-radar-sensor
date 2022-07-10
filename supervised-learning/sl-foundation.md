@@ -1,4 +1,15 @@
 # SL Foundation
+### Terms
+- Train/Validation/Test set
+- Target Function
+- Hypothesis H
+- Learning Model
+- Overfitting/Underfitting
+- Bias-Variance Trade-off
+- Avoid Overfitting
+- Model Generalization
+- Cross-Validation (CV)
+
 ## 특징
  - Data Label 존재
  - 들어온 인풋에 대하여 category label을 맞추는 함수(h)를 학습
@@ -81,14 +92,3 @@ Hypothesis H에 도달하기 위한 방법론
 - C: Regression (X)
 
 ![image](https://user-images.githubusercontent.com/39285147/178150921-784febbf-d95f-4d9b-83f0-05be85002e8d.png)
-
-# Note
-- Train/Validation/Test set
-- Target Function
-- Hypothesis H
-- Learning Model
-- Overfitting/Underfitting
-- Bias-Variance Trade-off
-- Avoid Overfitting
-- Model Generalization
-- Cross-Validation (CV)
