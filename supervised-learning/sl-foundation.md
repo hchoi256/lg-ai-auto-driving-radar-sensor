@@ -61,21 +61,17 @@ Hypothesis H에 도달하기 위한 방법론
 - **Objective 1**: 일반적인 모델 성능을 갖도록 함(= 분산이 작음)
 - **Objective 2**: 모델이 학습이 잘 되어짐(= 편차가 낮아짐)
 
-## Bias and Variance
-![image](https://user-images.githubusercontent.com/39285147/178140287-a87165e7-f4e3-4a8b-95a7-32b0bdc521e1.png)
-![image](https://user-images.githubusercontent.com/39285147/178140320-0eb319a7-fd5b-498b-8677-952f8aace02c.png)
-- **Bias**: error because the model can not represent the concept
-- **Variance**: error because a model overreacts to small changes (noise) in the training data
-- Total Loss = Bias + Variance (+ noise)
-
 ## Underfitting
 ![image](https://user-images.githubusercontent.com/39285147/178140447-30660140-2d0c-4400-9c41-7e57bb3301ba.png)
 
 ## Overfitting
 ![image](https://user-images.githubusercontent.com/39285147/178140458-0350db01-23e1-4b44-bdaa-379a78bbe0bf.png)
 
+### [Avoid Overfitting](https://github.com/EricChoii/ai-terms/blob/main/overfitting.md)
 
-
+## Bias-Variance Trade-off
+![image](https://user-images.githubusercontent.com/39285147/178140622-63c18b99-1905-44fd-9e65-6b768ca2fd87.png)
+- Total Loss(= generalization error) = Bias + Variance (+ noise)
 
 
 
