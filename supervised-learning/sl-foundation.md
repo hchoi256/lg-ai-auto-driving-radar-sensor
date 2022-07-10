@@ -50,6 +50,7 @@ Hypothesis H에 도달하기 위한 방법론
 
 ## Bias-Variance Trade-off
 ![image](https://user-images.githubusercontent.com/39285147/178140622-63c18b99-1905-44fd-9e65-6b768ca2fd87.png)
+![image](https://user-images.githubusercontent.com/39285147/178151883-e8373347-12f0-4f03-be51-60db99e1e3f0.png)
 - Total Loss(= generalization error) = Bias + Variance (+ noise)
 
 # Model Generalization
