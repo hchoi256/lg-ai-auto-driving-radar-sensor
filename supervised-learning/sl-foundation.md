@@ -82,3 +82,13 @@ Hypothesis H에 도달하기 위한 방법론
 
 ![image](https://user-images.githubusercontent.com/39285147/178150921-784febbf-d95f-4d9b-83f0-05be85002e8d.png)
 
+# Note
+- Train/Validation/Test set
+- Target Function
+- Hypothesis H
+- Learning Model
+- Overfitting/Underfitting
+- Bias-Variance Trade-off
+- Avoid Overfitting
+- Model Generalization
+- Cross-Validation (CV)
