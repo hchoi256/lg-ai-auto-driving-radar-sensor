@@ -1,5 +1,5 @@
 # 품질과 신뢰성
-## Part 1: 품질 및 품질비용
+## [Part 1: 품질 및 품질비용](https://github.com/EricChoii/lg-ai-auto-driving-radar-sensor/blob/main/quality-credibility/%ED%92%88%EC%A7%88-%ED%92%88%EC%A7%88%EB%B9%84%EC%9A%A9.md)
 ### 품질
 - 품질의 개념과 변화
 - 품질의 구성요소
@@ -18,7 +18,7 @@
 - 변동파악을 위한 기본원칙
 - 변동의 원인에 따른 구분
 
-## Part 2: SPC의 필요성과 개념
+## Part 2: [SPC의 필요성과 개념](https://github.com/EricChoii/lg-ai-auto-driving-radar-sensor/blob/main/quality-credibility/SPC.md)
 ### SPC란
 - SPC의 개념
 - 모니터와 관리
@@ -31,7 +31,7 @@
 - QC7 Tool의 용도, 특징, 종류
 - 관리도 분류
 
-## Part 3: 스마트 품질 경영
+## [Part 3: 스마트 품질 경영](https://github.com/EricChoii/lg-ai-auto-driving-radar-sensor/blob/main/quality-credibility/%EC%8A%A4%EB%A7%88%ED%8A%B8-%ED%92%88%EC%A7%88-%EA%B2%BD%EC%98%81.md)
 ### 품질 4.0과 스마트 품질경영
 - 스마트 공장
 - 품질관리 개선 영역
@@ -48,7 +48,7 @@
 - 공공정변수를 통하여 품질 계측치를 예측할 수 있는 가상 계측 시스템 구축
   - 회귀분석
 
-## Part 4: 신뢰성 개념과 중요성
+## [Part 4: 신뢰성 개념과 중요성](https://github.com/EricChoii/lg-ai-auto-driving-radar-sensor/blob/main/quality-credibility/%EC%8B%A0%EB%A2%B0%EC%84%B1-%EA%B0%9C%EB%85%90-%EC%A4%91%EC%9A%94%EC%84%B1.md)
 - 신뢰성의 중요성과 정의
 - 품질 vs. 신뢰성
 ### 신뢰성
@@ -58,7 +58,7 @@
 - 신뢰성 데이터
   - 신뢰성 데이터의 종류
 
-## Part 5: 신뢰성 분포와 신뢰성 척도
+## [Part 5: 신뢰성 분포와 신뢰성 척도](https://github.com/EricChoii/lg-ai-auto-driving-radar-sensor/blob/main/quality-credibility/%EC%8B%A0%EB%A2%B0%EC%84%B1-%EB%B6%84%ED%8F%AC-%EC%B2%99%EB%8F%84.md)
 ### 연속형 수명분포와 신뢰성 척도
 - 지수분포
 - 감마분포
@@ -68,7 +68,7 @@
 - Bernoulli와 이항 분포
 - 포아송 분포
 
-## Part 6: ICT 기반 예지보전
+## [Part 6: ICT 기반 예지보전](https://github.com/EricChoii/lg-ai-auto-driving-radar-sensor/blob/main/quality-credibility/ict-%EC%98%88%EC%A7%80%EB%B3%B4%EC%A0%84.md)
 - 시스템 열화
 - 보전의 목적
 - 보전도
