@@ -73,7 +73,9 @@ Hypothesis H에 도달하기 위한 방법론
 ![image](https://user-images.githubusercontent.com/39285147/178140622-63c18b99-1905-44fd-9e65-6b768ca2fd87.png)
 - Total Loss(= generalization error) = Bias + Variance (+ noise)
 
-
+## Cross-validation (CV)
+![image](https://user-images.githubusercontent.com/39285147/178140726-ea0190aa-54f9-4096-90fb-8574d11981cf.png)
+- Test set으로만 검증하면 Test set 과적화가 발생한다. 이를 방지하고자, Training dataset 안에 5묶음으로 그룹화하여 Validation set 을 다섯 개 중 하나 할당하여 검증 과정을 거친 후, 최종적으로 Test set에서 모델 성능을 검증한다.
 
 
 
