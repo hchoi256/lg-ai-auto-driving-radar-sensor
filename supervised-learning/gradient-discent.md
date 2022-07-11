@@ -1,11 +1,20 @@
 
 ****
 ### Terms
--  Batch gradient descent
--  Stochastic gradient descent (SGD)
--  Avoid local minimum
-  -  Momentum
--  
+- Learning rate
+- Batch gradient descent
+- Stochastic gradient descent (SGD)
+- Avoid local minimum
+  - Momentum
+    - SGD w/ momentum
+    - Nesterov momentum
+  - Adaptive learning rate
+    - AdaGrad
+    - RMSProp
+    - Adam
+- Avoid overfitting
+  - Reduce number of features
+  - Regularization
 
 # Gradient Discent
 ![image](https://user-images.githubusercontent.com/39285147/178204718-740c117e-9d6b-42d5-b8b3-d6fca3a11539.png)
