@@ -12,6 +12,7 @@
 
 ## α 분석
 ![image](https://user-images.githubusercontent.com/39285147/178205637-d9eb211b-7446-47e1-b8ac-80517a48e97e.png)
+![image](https://user-images.githubusercontent.com/39285147/178215771-05118421-8003-41c3-b31a-a45d3d221b38.png)
 ![image](https://user-images.githubusercontent.com/39285147/178207012-14d61f86-9ce7-4729-95f0-59391bfd5c58.png)
 - If α is too small, gradient descent can be slow.
 - If α is too large, gradient descent can overshoot the minimum. It may fail to converge, or even diverge.
@@ -63,7 +64,7 @@ Cannot guarantee global minimum but attempt to find a good local minimum
 과거에 Gradient가 업데이트 되어오던 방향 및 속도를 어느 정도 반영해서 현재 포인트에서 Gradient가 0이 되더라도 계속해서 학습을 진행할 수 있는 동력을 제공하게 되는 것
 - 0 < p < 1 이므로, p를 지수 형태로 표현하면서 과거 gradient일수록 더 적은 velocity 작용을 하게 만든다.
 
-### SGD w/ Momentum
+### 1-2) SGD w/ Momentum
 ![image](https://user-images.githubusercontent.com/39285147/178211019-b114666e-6ccb-46a6-85e5-8f2f8d8a7ce8.png)
 ![image](https://user-images.githubusercontent.com/39285147/178210873-6a8d7eba-75c0-4721-a9b5-b93c9021b56a.png)
 
@@ -72,14 +73,15 @@ Cannot guarantee global minimum but attempt to find a good local minimum
 모멘텀 SGD는 경사 하강법에 관성을 더해 준다.
 - Use a velocity as a weighted moving average of previous gradients
 
-### Nesterov Momentum
+### 1-2) Nesterov Momentum
 ![image](https://user-images.githubusercontent.com/39285147/178213239-b701b895-8edb-4814-b511-8c596611d83a.png)
 
 "lookahead" gradient step
 - 현재 위치에서 momentum step을 이동한 위치에서 구한 gradient 값
 - 어떤 방식으로 이동할지를 결정하므로 유동적인 이동이 가능 (> Momentum)
 
-### AdaGrad
+## 2. Adaptive learning rate
+### 2-1) AdaGrad
 ![image](https://user-images.githubusercontent.com/39285147/178212884-ffb13162-271f-483d-bb8d-6846dff8f323.png)
 
 각 방향으로의 learning rate를 적응적으로 조절하여 학습 효율 ↑
@@ -90,17 +92,26 @@ Cannot guarantee global minimum but attempt to find a good local minimum
 누적에 따라 learning rate 값이 작아지게 된다.
 - 학습이 발생하지 않음
 
-### RMSProp
+### 2-2) RMSProp
 RMSProp attempts to fix the drawbacks of AdaGrad, in which the learning rate becomes infinitesimally small and the algorithm is no longer able learning when the accumulated gradient is large.
 
 ![image](https://user-images.githubusercontent.com/39285147/178213603-081c4d32-b90c-43c6-b09c-fcb9c7ca92d6.png)
 - r의 값을 과거에 r만큼의 p factor를 곱해서 어느 정도 조절하는 과정을 통하여 AdaGrad에 비해 더 천천히 학습 속도가 줄어드는 효과를 볼 수 있다.
 
-### Adam (adaptive moment estimation) : RMSProp + momentum
+### 2-3) Adam (adaptive moment estimation) : RMSProp + momentum
 ![image](https://user-images.githubusercontent.com/39285147/178214234-b3e71ec1-3f7b-473b-bcbc-fe1a88ec53ba.png)
 
-[Comaprison: Gradient descent algorithms](https://miro.medium.com/max/1240/1*XVFmo9NxLnwDr3SxzKy-rA.gif)
+**Adam** is a good default choice in most cases
 
+> [Comaprison animation: gradient descent algorithms](https://miro.medium.com/max/1240/1*XVFmo9NxLnwDr3SxzKy-rA.gif)
 
+****
+# [Avoid Overfitting](https://github.com/EricChoii/ai-terms/blob/main/overfitting.md)
+![image](https://user-images.githubusercontent.com/39285147/178215927-55946b76-6d10-43cd-b716-c2030e4a66dc.png)
+
+More features → more parameters →need more data ; (in practice) less data → overfitting → MSE is sensitive to outliers
+
+# Quiz
+![image](https://user-images.githubusercontent.com/39285147/178216852-933cd1f7-f509-4f07-b446-e03a24e3de7c.png)
 
 
