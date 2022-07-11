@@ -69,7 +69,9 @@
 - **데이터 샘플 숫자가 늘어나는 경우 비효율적이다.**
   - N(샘플 개수)가 늘어나면 역함수 연산 과정이 매우 복잡해지기 때문이다.
 - **역행렬이 존재하지 않는 경우**
-  - *Iterative algorithm (Gradient descent)* 로 해결
+
+### Normal Euqation 해결
+*Iterative algorithm (Gradient descent)* 로 해결
 
 ## 2. Getting a solution 𝜽: Gradient descent
 ![image](https://user-images.githubusercontent.com/39285147/178201137-419c43bf-b1bb-46f2-be40-72bc3545b194.png)
@@ -112,8 +114,8 @@ Gradient descent algorithm에서 경우에 따라 Local optimum에 도달할 가
 2. Saddle points
 
 ### Gradient descent 해결
-4. Stochastic gradient descent(SGD)
-5. Mini batch
+1. Stochastic gradient descent(SGD)
+2. Mini batch
 
 ****
 # Quiz
