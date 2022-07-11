@@ -110,8 +110,6 @@ RMSProp attempts to fix the drawbacks of AdaGrad, in which the learning rate bec
 ### 2-3) Adam (adaptive moment estimation) : RMSProp + momentum
 ![image](https://user-images.githubusercontent.com/39285147/178214234-b3e71ec1-3f7b-473b-bcbc-fe1a88ec53ba.png)
 
-**Adam** is a good default choice in most cases
-
 > [Comaprison animation: gradient descent algorithms](https://miro.medium.com/max/1240/1*XVFmo9NxLnwDr3SxzKy-rA.gif)
 
 ****
@@ -123,4 +121,8 @@ More features → more parameters →need more data ; (in practice) less data �
 # Quiz
 ![image](https://user-images.githubusercontent.com/39285147/178216852-933cd1f7-f509-4f07-b446-e03a24e3de7c.png)
 
-
+# Note
+Optimization in general ML/DL
+- Mostly SGD used in general ML/DL
+  - Several limitations..
+- **Adam** is a good default choice in most cases
