@@ -71,7 +71,7 @@ Zero-one loss에 gradient descent 알고리즘을 적용하려면 partial deriva
  
 모델이 예측을 잘 하고 있다면(= Margin이 1보다 크다면), 수식에 의해 hinge loss는 0이 된다, vice versa.
 
-## Cross-entropy loss
+## [Cross-entropy loss](https://github.com/EricChoii/ai-terms/blob/main/entropy.md)
 > *Classification model 학습에 가장 많이 사용된다*
 
 ![image](https://user-images.githubusercontent.com/39285147/178741907-3154da2e-6d7b-413a-94bf-7b766beedd57.png)
