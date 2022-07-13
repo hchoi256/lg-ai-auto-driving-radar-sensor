@@ -2,7 +2,18 @@
 ### Terms
 - Advanced Classification
   - SVM
+    - Hard margin
+    - Soft Margin
+    - Kernel Trick
+      - RBF
+      - Polynomial
+      - Hyperbolic tangent(multilayer perceptron kernel)
   - NN
+    - Activation Function
+    - DNN
+    - MLP
+    - Gradient Vanishing Problem
+    - CNN
 
 # ANN
 ![image](https://user-images.githubusercontent.com/39285147/178767972-0c4f50b4-fe8b-410c-b0e2-991b81e40c9c.png)
