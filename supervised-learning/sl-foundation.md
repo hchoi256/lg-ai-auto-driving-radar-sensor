@@ -79,8 +79,6 @@ Hypothesis H에 도달하기 위한 방법론
 - **Objective 1**: 일반적인 모델 성능을 갖도록 함(= 분산이 작음)
 - **Objective 2**: 모델이 학습이 잘 되어짐(= 편차가 낮아짐)
 
-## [Avoid Overfitting](https://github.com/EricChoii/ai-terms/blob/main/overfitting.md)
-
 ## Cross-validation (CV)
 ![image](https://user-images.githubusercontent.com/39285147/178140726-ea0190aa-54f9-4096-90fb-8574d11981cf.png)
 - Test set으로만 검증하면 Test set 과적화가 발생한다. 이를 방지하고자, Training dataset 안에 하나의 Validation set을 포함한 k개를 한 묶음(*Data Augmentation*)으로 총 다섯 번의 검증 과정을 거쳐서 모델 일반화를 통한 최적화를 이루어 낸다. 최종적으로 Test set에서 모델 성능을 검증한다.
