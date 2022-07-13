@@ -76,6 +76,8 @@ Zero-one loss에 gradient descent 알고리즘을 적용하려면 partial deriva
 
 ![image](https://user-images.githubusercontent.com/39285147/178741907-3154da2e-6d7b-413a-94bf-7b766beedd57.png)
 
+확률값을 계산한 이후에 두 개의 서로 다른 확률 함수(pmfs)의 dissimilarity를 계산하고 그 error로 하여금 hyperplane을 학습한다.
+
 엔트로피 값(H(p))는 고정값이므로, 실질적으로 Cross entropy는 KL divergence 값에 의해 조절된다. 여기서 KL divergence는 p와 q의 유사도에 따라 값이 정해진다.
 - p와 q가 다르다면 cross entropy loss는 증가한다.
 
