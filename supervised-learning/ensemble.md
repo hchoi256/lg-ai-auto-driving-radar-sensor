@@ -1,6 +1,13 @@
 ****
 ### Terms
 - Ensemble
+  - Bagging
+    - Bootstrap
+  - Boosting
+    - Adaboost
+- TN,FP,FN,TP
+- Accuracy, Precision, Recall
+- ROC Curve
 
 # Performance Evaluation in SL
 ![image](https://user-images.githubusercontent.com/39285147/178784146-bc2562a6-86d4-4b9b-aa84-11269697c231.png)
