@@ -29,29 +29,34 @@
 # Ensemble Methods
 ![image](https://user-images.githubusercontent.com/39285147/178795696-eb536d7f-8942-4e47-9dc6-3305fa255065.png)
 
-Predict class label for unseen data by aggregating a set of predictions : different classifiers (experts) learned from the training data
+Predict class label for unseen data by aggregating a set of predictions : different classifiers (**experts*) learned from the training data
+- 같은 모델로 학습이 될 수 있기에, 같은 학습데이터로 학습하는 것을 지양해야한다.
 
-Make a decision with a voting
+> *expert*: 하나의 학습 모델 (i.e., SVM)
+
+이미 사용하고 있거나 개발한 알고리즘의 간단한 확장 SL task에서 성능을 올릴 수 있는 방법
+- ML에서 알고리즘의 종류에 상관 없이 서로 다르거나, 같은 메커니즘으로 동작하는 다양한 ML 모델을 묶어 함께 사용하는 방식
+- 다양한 모델의 각 장점을 살려서 예측 성능을 향상시킨다.
 
 ## Ensemble Intuition
 
 Build different experts, and let them vote.
 
 ### Advantages & Disadvantage
-Advantages
-- Improve predictive performance
-- Other types of classifiers can be directly included
+#### Advantages
+- Improve predictive performance (예측 성능을 안정적으로 향상 가능)
+- Other types of classifiers can be directly included (noise로 부터 안정적이다)
 - Easy to implement
-- No too much parameter tuning
+- No too much parameter tuning (각 모델이 독립적으로 동작하기 때문이다.)
 
-Disadvantage
+#### Disadvantage
 - Not a compact representation
 
 ### Bagging
 ![image](https://user-images.githubusercontent.com/39285147/178803258-d14bb90b-4c7b-4138-8b75-3cca6d72823b.png)
 
 - **Boostrapping* + aggregating (for more robust performance; lower variance)
-  - 높은 bias의 underfitting 문제나, 높은 variance로 인한 overfitting 문제를 해결하는데 도움을 준다
+  - 높은 variance로 인한 overfitting 문제를 해결하는데 도움을 준다
 
 <details markdown="1">
 <summary>Boostrapping(접기/펼치기)</summary>
@@ -59,6 +64,9 @@ Disadvantage
 ![image](https://user-images.githubusercontent.com/39285147/178803397-7a47d4ff-2002-484b-a548-bf09de099279.png)
 
 </details>
+
+> Bagging: 학습 과정에서 training sample을 랜덤하게 나누어 선택해 학습한다.
+>> 같은 데이터셋을 다른 모델 M개로 학습하기에 다른 데이터셋 M개를 사용하는 효과가 있다.
 
 - Train several models in parallel (병렬 처리)
   - Usually, the more classifiers the better
@@ -68,7 +76,7 @@ Disadvantage
 ### Boosting
 ![image](https://user-images.githubusercontent.com/39285147/178803534-0fe8851c-2cd4-4b7c-a527-25cc9f241268.png)
 
-- **Sequencial** cascading of weak classifiers
+- **Sequencial** cascading of **weak classifiers*
   - **Adaboost*
 
 <details markdown="1">
@@ -77,6 +85,17 @@ Disadvantage
 ![image](https://user-images.githubusercontent.com/39285147/178804663-a6d3c98e-82cb-42c8-9cdb-85b7e59722d9.png)
 
 </details>
+
+<details markdown="1">
+<summary>Weak/Strong Classifier(접기/펼치기)</summary>
+
+Weak: Bias가 높은 Classifier (단순한 모델)
+Strong: Variance가 높은 Classifier (복잡한 모델)
+
+</details>
+
+> Cascading을 적용하여 weak classifier를 순차적으로 학습하여 모델 복잡도를 높인다.
+
 
 - Assign a larger weight for misclassified points by one of the base classifiers, when training the next classifier in the sequence (combat to lower bias)
 - Improving Decision Tree
