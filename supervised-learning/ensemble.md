@@ -28,6 +28,12 @@
 ## ROC Curve
 ![image](https://user-images.githubusercontent.com/39285147/178790161-46714147-3b13-4e76-b324-32a9ec4b495b.png)
 
+서로 다른 classifier의 성능을 측정하는데 사용하는 curve이다.
+
+> FPR: 1 - TPR
+> 
+> Sensitivity: Recall
+
 # Ensemble Methods
 ![image](https://user-images.githubusercontent.com/39285147/178795696-eb536d7f-8942-4e47-9dc6-3305fa255065.png)
 
