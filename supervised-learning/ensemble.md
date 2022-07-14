@@ -13,6 +13,8 @@
 ![image](https://user-images.githubusercontent.com/39285147/178784146-bc2562a6-86d4-4b9b-aa84-11269697c231.png)
 ![image](https://user-images.githubusercontent.com/39285147/178784704-26e846fd-2508-4165-9d46-e0b79e816699.png)
 
+> Confusion Matrix: 각 경우에 대해 오차가 얼마 있었는지 표현하는 방법
+
 <details markdown="1">
 <summary>Error measure(접기/펼치기)</summary>
 
