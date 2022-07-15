@@ -11,3 +11,6 @@
 ### [Part 4. Linear Classification](https://github.com/EricChoii/lg-ai-auto-driving-radar-sensor/blob/main/supervised-learning/linear-classification.md)
 ### [Part 5. Advanced Classification](https://github.com/EricChoii/lg-ai-auto-driving-radar-sensor/blob/main/supervised-learning/advanced-classification.md)
 ### [Part 6. Ensemble](https://github.com/EricChoii/lg-ai-auto-driving-radar-sensor/blob/main/supervised-learning/ensemble.md)
+
+# Reference
+by Prof. Jaewon Gang from Ewha Univ.
