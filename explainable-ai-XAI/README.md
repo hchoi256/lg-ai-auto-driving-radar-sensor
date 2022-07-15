@@ -1,4 +1,6 @@
  # Explainable AI (XAI)
+ ![image](https://user-images.githubusercontent.com/39285147/179220163-2486aae1-9a72-4a6a-b11c-1a03a9b75fca.png)
+
  ## 학습 목표
 Machine Learning은 크고 복잡한 데이터를 이해하고 이들 간의 관계성을 살펴보는 기술이지만, 본질적으로 해석 가능성을 제한하는 블랙박스인 경우가 많습니다.
 
