@@ -19,4 +19,4 @@ Machine Learning은 크고 복잡한 데이터를 이해하고 이들 간의 관
 알고리즘들을 어떻게 하면 믿고 안전하게 적용할 수 있을지 연구한다.
 
 # Reference
-Tasesup Moon by SNU - MIND
+by Prof. Tasesup Moon from SNU - MIND
