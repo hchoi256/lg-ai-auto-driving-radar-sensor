@@ -113,7 +113,7 @@ RMSProp attempts to fix the drawbacks of AdaGrad, in which the learning rate bec
 > [Comaprison animation: gradient descent algorithms](https://miro.medium.com/max/1240/1*XVFmo9NxLnwDr3SxzKy-rA.gif)
 
 ****
-# [Avoid Overfitting](https://github.com/EricChoii/ai-terms/blob/main/overfitting.md)
+# [Avoid Overfitting](https://github.com/hchoi256/ai-terms/blob/main/overfitting.md)
 ![image](https://user-images.githubusercontent.com/39285147/178215927-55946b76-6d10-43cd-b716-c2030e4a66dc.png)
 
 More features → more parameters →need more data ; (in practice) less data → overfitting → MSE is sensitive to outliers
