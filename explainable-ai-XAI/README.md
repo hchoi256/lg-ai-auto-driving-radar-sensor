@@ -9,9 +9,9 @@ Machine Learning은 크고 복잡한 데이터를 이해하고 이들 간의 관
 본 모듈은 이러한 AI가 갖고 있는 한계를 보완하기 위한 AI기술인 Explainable AI 기술에 대해 학습함으로써 Machine Learning 모델과 그 의미에 대한 이해를 돕고자 합니다. 
 
 ## 강의 목차
-### [Part 1](https://github.com/EricChoii/lg-ai-auto-driving-radar-sensor/blob/main/explainable-ai-XAI/p1.md)
-### [Part 2](https://github.com/EricChoii/lg-ai-auto-driving-radar-sensor/blob/main/explainable-ai-XAI/p2.md)
-### [Part 3](https://github.com/EricChoii/lg-ai-auto-driving-radar-sensor/blob/main/explainable-ai-XAI/p3.md)
+### [Part 1](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/blob/main/explainable-ai-XAI/p1.md)
+### [Part 2](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/blob/main/explainable-ai-XAI/p2.md)
+### [Part 3](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/blob/main/explainable-ai-XAI/p3.md)
 
 # Note
 ### Adaptive ML 알고리즘
