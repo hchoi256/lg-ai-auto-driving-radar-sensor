@@ -3,7 +3,7 @@ LG Aimers
 
 ![image](https://user-images.githubusercontent.com/39285147/176646283-f1ef50cf-72b1-43be-89cc-1231cd0423ac.png)
 
-## **Phase I: AI Specialist Course**
+# **Phase I: AI Specialist Course**
   - **Module 1**: [Quality and Reliability](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/tree/main/quality-credibility) - *Hanyang University*
   - **Module 2**: [Supervised Learning (Classification/Regression)](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/tree/main/supervised-learning) - *Ewha University*
   - **Module 3**: [Unsupervised Learning](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/tree/main/unsupervised-learning) - *Seoul National University*
@@ -11,21 +11,21 @@ LG Aimers
   - **Module 5**: [Causal Inference](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/tree/main/causal-inference) - *Seoul National University*
   - **Module 6**: [Auto-driving and Radar-sensor](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/tree/main/self-driving-and-radar-sensor) - *LG AI Research*
 
-#### Education
+## Education
 Opportunities for young people to receive high-quality AI education
 - Acquire knowledge about AI problem solving with the guidance of eminent experts in the academic, industrial fields
 - Develop AI ability with AI curriculum of essential modules of the expert level
 
-#### Practice
+## Practice
 Hand-on experience for problem-solving through industrial data held by LG
 - Real-world opportunities to utilize AI theory beyond just acquiring theoretical knowledge
 
-## [**Phase II: Hackathon**](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/blob/main/hackerthon.md)
+# [**Phase II: Hackathon**](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/blob/main/hackerthon.md)
 ![image](https://user-images.githubusercontent.com/39285147/176649666-dc63ccb4-2a55-4750-a2be-30c4e2e263ed.png)
 
 Performance prediction for antenna of autonomous driving radar sensors
 
-### 배경
+# 배경
 ![image](https://user-images.githubusercontent.com/39285147/180979155-36215da2-b352-41ec-86ce-c00be4b791fa.png)
 
 현대 자동차에 탑재된 크루즈 기능, 자율주행 시대의 도래를 알리는 신호탄입니다!
@@ -42,7 +42,7 @@ LG라는 기업은 이러한 자율주행에 없어서는 안 될 필수 소재�
 
 레이더는 주로 항공기, 전투기, 대형 선박 등 거대 물체에 주로 탑재되었기에, 상대적으로 크기가 작은 자동차에 적용시키기란 어려운 일이있다.
 
-#### 차량용 레이더 조건
+## 차량용 레이더 조건
 ![image](https://user-images.githubusercontent.com/39285147/180979179-13a750f9-6b07-4868-b822-af96fb01bb4f.png)
 ![image](https://user-images.githubusercontent.com/39285147/180979335-5a05c3ac-9471-4eb2-96ac-acd9a8a34adb.png)
 
@@ -51,7 +51,7 @@ LG라는 기업은 이러한 자율주행에 없어서는 안 될 필수 소재�
 
 > *초음파 센서*: 주변 장애물 인식
 
-#### 자율주행 개발 목표
+## 자율주행 개발 목표
 자율주행 단계는 1단계부터 6단계까지 포진해있다.
 
 현시점에서 세계시장이 도달한 자율주행 기술은 3단계에 머물러 있다.
@@ -67,7 +67,7 @@ LG 또한 3단계에 머물고 있으며, 완전 자율주행 단계로의 도�
 **생산능력**
 - 상기 기술들을 접목하여 일정하게 높은 양질의 제품을 만들어낼 수 있는 능력
 
-## Note
+# Note
 
 All the codes are written by Eric.
 
