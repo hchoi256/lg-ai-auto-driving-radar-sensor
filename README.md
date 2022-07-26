@@ -6,12 +6,12 @@ LG Aimers
 ## Overview
 
 ### **Phase I: AI Specialist Course**
-  - **Module 1**: Quality and Reliability - *Hanyang University*
-  - **Module 2**: Supervised Learning (Classification/Regression) - *Ewha University*
-  - **Module 3**: Unsupervised Learning - *Seoul National University*
-  - **Module 4**: Explainable AI - *Seoul National University*
-  - **Module 5**: Causal Inference - *Seoul National University*
-  - **Module 6**: Auto-driving and Radar-sensor - *LG AI Research*
+  - **Module 1**: [Quality and Reliability](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/tree/main/quality-credibility) - *Hanyang University*
+  - **Module 2**: [Supervised Learning (Classification/Regression)](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/tree/main/supervised-learning) - *Ewha University*
+  - **Module 3**: [Unsupervised Learning](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/tree/main/unsupervised-learning) - *Seoul National University*
+  - **Module 4**: [Explainable AI](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/tree/main/explainable-ai-XAI) - *Seoul National University*
+  - **Module 5**: [Causal Inference](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/tree/main/causal-inference) - *Seoul National University*
+  - **Module 6**: [Auto-driving and Radar-sensor](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/tree/main/self-driving-and-radar-sensor) - *LG AI Research*
 
 #### Education
 
