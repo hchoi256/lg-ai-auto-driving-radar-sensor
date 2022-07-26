@@ -25,7 +25,7 @@ Hand-on experience for problem-solving through industrial data held by LG
 
 Performance prediction for antenna of autonomous driving radar sensors
 
-# 배경
+## 배경
 ![image](https://user-images.githubusercontent.com/39285147/180979155-36215da2-b352-41ec-86ce-c00be4b791fa.png)
 
 현대 자동차에 탑재된 크루즈 기능, 자율주행 시대의 도래를 알리는 신호탄입니다!
