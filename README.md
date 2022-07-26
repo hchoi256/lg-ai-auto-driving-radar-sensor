@@ -20,7 +20,7 @@ Opportunities for young people to receive high-quality AI education
 Hand-on experience for problem-solving through industrial data held by LG
 - Real-world opportunities to utilize AI theory beyond just acquiring theoretical knowledge
 
-# [**Phase II: Hackathon**](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/blob/main/hackerthon.md)
+# [**Phase II: Hackathon**](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/blob/main/hackathon.md)
 ![image](https://user-images.githubusercontent.com/39285147/176649666-dc63ccb4-2a55-4750-a2be-30c4e2e263ed.png)
 
 Performance prediction for antenna of autonomous driving radar sensors
