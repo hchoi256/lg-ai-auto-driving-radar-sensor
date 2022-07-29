@@ -112,8 +112,9 @@ Build different experts, and let them vote.
 <details markdown="1">
 <summary>Weak/Strong Classifier(접기/펼치기)</summary>
 
-Weak: Bias가 높은 Classifier (단순한 모델)
-Strong: Variance가 높은 Classifier (복잡한 모델)
+**Weak**: Bias가 높은 Classifier (단순한 모델)
+
+**Strong**: Variance가 높은 Classifier (복잡한 모델)
 
 </details>
 
