@@ -49,10 +49,13 @@ Predict class label for unseen data by aggregating a set of predictions : differ
 
 ## Stacking Ensemble
 ![image](https://user-images.githubusercontent.com/39285147/181845364-5bf4c20a-9a96-4aa1-ad6d-2941c27c2ee3.png)
-![image](https://user-images.githubusercontent.com/39285147/181845420-3cefc570-e7e0-4332-be39-c4f64b79a878.png)
+![image](https://user-images.githubusercontent.com/39285147/181845805-7b1d55b4-ce8c-4c69-a2a3-d19d22804bbe.png)
+![image](https://user-images.githubusercontent.com/39285147/181845713-9b25ab31-7b93-42b7-9528-d0d5e3b63c4b.png)
 
 개별적인 모델들이 학습하고 예측한 데이터를 쌓아서 또 다른 학습데이터를 만들고 이 데이터를 기반으로 '메타 모델'을 하나 더 만들어 예측하는 모델이다.
 
+> 앞서 설명에 사용된 자료는 인프런의 *'파이썬 머신러닝 완벽 가이드' 강사님인 권철민*님의 자료임을 밝힌다.
+ 
 ## Ensemble Intuition
 
 Build different experts, and let them vote.
