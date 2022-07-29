@@ -47,6 +47,12 @@ Predict class label for unseen data by aggregating a set of predictions : differ
 - ML에서 알고리즘의 종류에 상관 없이 서로 다르거나, 같은 메커니즘으로 동작하는 다양한 ML 모델을 묶어 함께 사용하는 방식
 - 다양한 모델의 각 장점을 살려서 예측 성능을 향상시킨다.
 
+## Stacking Ensemble
+![image](https://user-images.githubusercontent.com/39285147/181845364-5bf4c20a-9a96-4aa1-ad6d-2941c27c2ee3.png)
+![image](https://user-images.githubusercontent.com/39285147/181845420-3cefc570-e7e0-4332-be39-c4f64b79a878.png)
+
+개별적인 모델들이 학습하고 예측한 데이터를 쌓아서 또 다른 학습데이터를 만들고 이 데이터를 기반으로 '메타 모델'을 하나 더 만들어 예측하는 모델이다.
+
 ## Ensemble Intuition
 
 Build different experts, and let them vote.
