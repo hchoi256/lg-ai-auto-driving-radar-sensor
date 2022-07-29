@@ -126,6 +126,8 @@ Strong: Variance가 높은 Classifier (복잡한 모델)
     - Very popular machine learning algorithm
     - One of leading methods for winning many Kaggle competition
 
+![image](https://user-images.githubusercontent.com/39285147/181843541-210e9d23-b846-4fe4-9a52-2cc9b9befc89.png)
+
 #### Advantage of Boosting
 - Simple and easy to implement
 - Flexible : can combine with any learning algorithm
