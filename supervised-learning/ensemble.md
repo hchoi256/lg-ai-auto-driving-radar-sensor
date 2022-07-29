@@ -100,6 +100,7 @@ Build different experts, and let them vote.
 여러 개의 동일한 알고리즘의 분류기가 순차적으로 학습을 수행하되, 예측이 틀린 데이터에 대해 올바르게 예측하도록 가중치를 부여하면서 학습과 예측을 진행한다.
 - **Sequencial** cascading of **weak classifiers*
   - **Adaboost*
+- 높은 bias를 낮추는 것 (학습이 덜 된 모델을 추가 학습을 통해 좀 더 좋은 모델로 만드는것)
 
 <details markdown="1">
 <summary>Adaboost(접기/펼치기)</summary>
