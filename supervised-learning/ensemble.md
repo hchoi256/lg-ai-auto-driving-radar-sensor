@@ -1,6 +1,7 @@
 ****
 ### Terms
 - Ensemble
+  - Voting 
   - Bagging
     - Bootstrap
   - Boosting
@@ -60,9 +61,19 @@ Build different experts, and let them vote.
 #### Disadvantage
 - Not a compact representation
 
+### Voting
+**서로 다른** 알고리즘을 가진 분류기를 결합한다.
+
+#### Hard Voting
+![image](https://user-images.githubusercontent.com/39285147/181841630-90e8b288-4501-42d5-ac47-7ce381b48987.png)
+
+#### Soft Voting
+![image](https://user-images.githubusercontent.com/39285147/181841647-48cfe381-dcd5-4997-a7c7-ed75fae789bb.png)
+
 ### Bagging
 ![image](https://user-images.githubusercontent.com/39285147/178803258-d14bb90b-4c7b-4138-8b75-3cca6d72823b.png)
 
+**같은 유형의** 서로 다른 분류 모델을 여러 개 만들어서 서로 다른 학습 데이터로 학습시킨 후(*부트스트랩*), 동일한 테스트 데이터에 대한 서로 다른 예측값들을 투표를 통해(*어그리게이팅*) 가장 높은 예측값으로 최종 결론을 내리는 앙상블 기법이다.
 - **Boostrapping* + aggregating (for more robust performance; lower variance)
   - 높은 variance로 인한 overfitting 문제를 해결하는데 도움을 준다
 
@@ -70,6 +81,8 @@ Build different experts, and let them vote.
 <summary>Boostrapping(접기/펼치기)</summary>
 
 ![image](https://user-images.githubusercontent.com/39285147/178803397-7a47d4ff-2002-484b-a548-bf09de099279.png)
+
+전체 데이터에서 일부가 중첩되게 샘플링해서 데이터 세트를 만드는 과정으로 학습 데이터 수를 늘린다.
 
 </details>
 
@@ -84,6 +97,7 @@ Build different experts, and let them vote.
 ### Boosting
 ![image](https://user-images.githubusercontent.com/39285147/178803534-0fe8851c-2cd4-4b7c-a527-25cc9f241268.png)
 
+여러 개의 동일한 알고리즘의 분류기가 순차적으로 학습을 수행하되, 예측이 틀린 데이터에 대해 올바르게 예측하도록 가중치를 부여하면서 학습과 예측을 진행한다.
 - **Sequencial** cascading of **weak classifiers*
   - **Adaboost*
 
