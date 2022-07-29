@@ -70,7 +70,7 @@ Build different experts, and let them vote.
 #### Disadvantage
 - Not a compact representation
 
-### Voting
+### 1. Voting
 **서로 다른** 알고리즘을 가진 분류기를 결합한다.
 
 #### Hard Voting
@@ -79,7 +79,7 @@ Build different experts, and let them vote.
 #### Soft Voting
 ![image](https://user-images.githubusercontent.com/39285147/181841647-48cfe381-dcd5-4997-a7c7-ed75fae789bb.png)
 
-### Bagging
+### 2. Bagging
 ![image](https://user-images.githubusercontent.com/39285147/178803258-d14bb90b-4c7b-4138-8b75-3cca6d72823b.png)
 
 **같은 유형의** 서로 다른 분류 모델을 여러 개 만들어서 서로 다른 학습 데이터로 학습시킨 후(*부트스트랩*), 동일한 테스트 데이터에 대한 서로 다른 예측값들을 투표를 통해(*어그리게이팅*) 가장 높은 예측값으로 최종 결론을 내리는 앙상블 기법이다.
@@ -103,7 +103,7 @@ Build different experts, and let them vote.
 - Improving Decision Tree
   - **Random forest** (inherently boosting)
 
-### Boosting
+### 3. Boosting
 ![image](https://user-images.githubusercontent.com/39285147/178803534-0fe8851c-2cd4-4b7c-a527-25cc9f241268.png)
 
 여러 개의 동일한 알고리즘의 분류기가 순차적으로 학습을 수행하되, 예측이 틀린 데이터에 대해 올바르게 예측하도록 가중치를 부여하면서 학습과 예측을 진행한다.
