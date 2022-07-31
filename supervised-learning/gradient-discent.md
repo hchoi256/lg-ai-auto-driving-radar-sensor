@@ -68,7 +68,8 @@ Cannot guarantee global minimum but attempt to find a good local minimum
 - GPU 전부 활용 X
 
 # Avoid local minimum
-## 1. Momentum
+## 1. Momentum - 속도를 최대한 빠르게 한다.
+
 ### *Exponentially Weighted Moving Average (low pass filtering)*
 ![image](https://user-images.githubusercontent.com/39285147/178209601-d13783cc-f1e9-4a6c-bfb2-0e87bf1a7c45.png)
 
@@ -91,7 +92,7 @@ Cannot guarantee global minimum but attempt to find a good local minimum
 - 현재 위치에서 momentum step을 이동한 위치에서 구한 gradient 값
 - 어떤 방식으로 이동할지를 결정하므로 유동적인 이동이 가능 (> Momentum)
 
-## 2. Adaptive learning rate
+## 2. Adaptive learning rate - 방향을 최대한 일직선으로
 ### 2-1) AdaGrad
 ![image](https://user-images.githubusercontent.com/39285147/178212884-ffb13162-271f-483d-bb8d-6846dff8f323.png)
 
