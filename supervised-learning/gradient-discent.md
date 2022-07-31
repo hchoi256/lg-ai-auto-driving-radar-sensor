@@ -16,6 +16,8 @@
   - Reduce number of features
   - Regularization
 
+![image](https://user-images.githubusercontent.com/39285147/182006560-b09a3593-7253-44b7-9bde-dd6a76715d49.png)
+
 # Gradient Discent
 ![image](https://user-images.githubusercontent.com/39285147/178204718-740c117e-9d6b-42d5-b8b3-d6fca3a11539.png)
 
