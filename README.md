@@ -25,7 +25,7 @@ Hand-on experience for problem-solving through industrial data held by LG
 
 Performance prediction for antenna of autonomous driving radar sensors
 
-[Dacon 대회 페이지](https://dacon.io/competitions/official/235927/overview/description)
+[*Dacon 대회 페이지*](https://dacon.io/competitions/official/235927/overview/description)
 
 ## 배경
 ![image](https://user-images.githubusercontent.com/39285147/180979155-36215da2-b352-41ec-86ce-c00be4b791fa.png)
