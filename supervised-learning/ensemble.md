@@ -6,6 +6,8 @@
     - Bootstrap
   - Boosting
     - Adaboost
+    - Logit Boost
+    - Gradient Boost
 - TN,FP,FN,TP
 - Accuracy, Precision, Recall
 - ROC Curve
@@ -116,7 +118,36 @@ Build different experts, and let them vote.
 
 ![image](https://user-images.githubusercontent.com/39285147/178804663-a6d3c98e-82cb-42c8-9cdb-85b7e59722d9.png)
 
+약 분류기(Weak Classifier)를 모아서 최종적인 강 분류기(Strong Classifier)를 생성하는 최초의 Boosting 기법이다.
+
+기본적인 Adaboost는 {1, -1}의 실수값 범위의 분류기 결과를 **확률값**으로 계산한다.
+
+이전에 **잘못 분류한 데이터에 가중치를 더 많이** 주고(다음 학습에서 다뤄져야할 확률 높이기 위해서), **잘 분류한 학습기에 더 많은 가중치**를 주면서 학습한다.
+- 랜덤포레스트는 동일한 가중치의 의사결정트리 여러 개의 조합.
+
+
+1. **Logit Boost** (분류)
+- 쉽게 말해서 AdaBoost에 로지스틱 회귀분석의 cost function으로 **Logistic Regression**을 추가해준 것이다.
+
+2. **L2Boost** (회귀)
 </details>
+
+<details markdown="1">
+<summary>Gradient Boost(접기/펼치기)</summary>
+
+순차적으로 약한 학습기를 만들어 가며 이전 학습기의 잔차 (resuidual)를 보완하는 방식이다.
+
+AdaBoost가 좀 더 구분이 어려운 값들에 대해 가중치를 주는 방식으로 약점을 판별한다면, Gradient Boost는 **Gradient Descent 기법을 이용하여 손실함수를 최소화하는 방향**으로 학습하면서 잔차들을 구분한다.
+
+AdaBoost에서는 Exponential error function을 사용했지만, GBM에서는 내가 **원하는 Loss function**을 사용할 수 있다는 장점이 있다.
+
+이것이 바로 비용함수에 대한 통제가 제한적인 까다로운 현실 문제에 대하여 다른 모델보다 Gradient Boost가 더 각광받는 이유이다.
+
+LightGBM, CatBoost, **XGBoost** 모두 GB의 한 종류이다.
+- XGBoost: ART기반의 트리를 사용하고, 손실함수 뿐만 아니라 모형 복잡도까지 고려하고 있는 기법이다.
+- 
+</details>
+
 
 <details markdown="1">
 <summary>Weak/Strong Classifier(접기/펼치기)</summary>
