@@ -21,6 +21,8 @@
 # Gradient Discent
 ![image](https://user-images.githubusercontent.com/39285147/178204718-740c117e-9d6b-42d5-b8b3-d6fca3a11539.png)
 
+함수의 기울기(경사)를 구하여 기울기가 낮은 쪽으로 계속 이동시켜 극값(최적값)에 이를 때까지 반복하는 것이다.
+
 ## α 분석
 ![image](https://user-images.githubusercontent.com/39285147/178205637-d9eb211b-7446-47e1-b8ac-80517a48e97e.png)
 ![image](https://user-images.githubusercontent.com/39285147/178215771-05118421-8003-41c3-b31a-a45d3d221b38.png)
