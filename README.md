@@ -3,6 +3,7 @@ LG Aimers
 
 ![image](https://user-images.githubusercontent.com/39285147/176646283-f1ef50cf-72b1-43be-89cc-1231cd0423ac.png)
 
+
 # **Phase I: AI Specialist Course**
   - **Module 1**: [Quality and Reliability](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/tree/main/quality-credibility) - *Hanyang University*
   - **Module 2**: [Supervised Learning (Classification/Regression)](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/tree/main/supervised-learning) - *Ewha University*
