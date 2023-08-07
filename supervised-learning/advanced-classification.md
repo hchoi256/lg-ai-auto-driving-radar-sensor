@@ -60,6 +60,8 @@ Assumes linear separability
 
 Extends to non-separable cases
 
+마진 내에 있는 데이터들은 틀려도 크게 오류값을 증가시키지 않도록 패널티를 부여하는 것이 소프트 마진 SVM의 핵심 아이디어 중 하나입니다.
+
 ### 3. Nonlinear transform & kernel trick
 ![image](https://user-images.githubusercontent.com/39285147/178763530-2e4b28b7-b553-4bec-9a42-670a5b10f11d.png)
 
