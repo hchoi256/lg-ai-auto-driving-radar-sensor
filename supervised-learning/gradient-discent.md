@@ -1,4 +1,4 @@
-
+![image](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/assets/39285147/9e462ca6-dcc1-45bc-975f-a3fb5d79e347)
 ****
 ### Terms
 - Learning rate
@@ -89,6 +89,8 @@ Cannot guarantee global minimum but attempt to find a good local minimum
 
 ### 1-2) Nesterov Momentum
 ![image](https://user-images.githubusercontent.com/39285147/178213239-b701b895-8edb-4814-b511-8c596611d83a.png)
+
+![image](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/assets/39285147/d51e26b1-2857-40ac-8d8a-83de742dd6d9)
 
 "lookahead" gradient step
 - 현재 위치에서 momentum step을 이동한 위치에서 구한 gradient 값
