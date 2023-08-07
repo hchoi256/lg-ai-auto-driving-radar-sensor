@@ -1,4 +1,3 @@
-![image](https://github.com/hchoi256/lg-ai-auto-driving-radar-sensor/assets/39285147/9e462ca6-dcc1-45bc-975f-a3fb5d79e347)
 ****
 ### Terms
 - Learning rate
