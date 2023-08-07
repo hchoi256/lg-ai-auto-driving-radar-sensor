@@ -1,6 +1,5 @@
 # lg-ai-auto-driving-radar-sensor
 LG Aimers
-
 ![image](https://user-images.githubusercontent.com/39285147/176646283-f1ef50cf-72b1-43be-89cc-1231cd0423ac.png)
 
 # **Phase I: AI Specialist Course**
